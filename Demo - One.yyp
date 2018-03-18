@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "10a0dc3b-ea65-4615-83f5-58fdf77ba3bd",
+            "Value": {
+                "id": "02f42fa8-b93c-4a65-8131-d8325af2887b",
+                "resourcePath": "scripts\\scr_dash_state\\scr_dash_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "13c8fa68-63c9-4c35-85f0-5381ecc03e7b",
             "Value": {
                 "id": "6b588577-d77d-436f-a344-f0766f34a976",
@@ -251,6 +259,14 @@
             "Value": {
                 "id": "f98b790f-a53a-4a2d-9aef-ca2eb476376d",
                 "resourcePath": "scripts\\DrawPolygon\\DrawPolygon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3dee3b01-13b3-4faa-aef0-6cd3794fad23",
+            "Value": {
+                "id": "2ec00296-0975-4f39-925f-dcbac6314835",
+                "resourcePath": "scripts\\scr_process_collision\\scr_process_collision.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -620,6 +636,14 @@
                 "id": "86f0a9f1-57da-4de2-8ae8-707500d9bcf3",
                 "resourcePath": "views\\9ef0a479-7d98-411a-b48f-18e63b8dba61.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f39ada4-6227-43d5-9b35-0544a3a61121",
+            "Value": {
+                "id": "031202c8-ffb1-4e3f-be7a-8cf013f4ef90",
+                "resourcePath": "objects\\oDashEffect\\oDashEffect.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1037,7 +1061,9 @@
         "975c94e8-5469-4e0a-8547-06767ba17f35",
         "f6f6ec87-38e9-4b7f-ac50-7e3f48e5debd",
         "638571bf-0486-4af1-a2b4-9cc2034d26d2",
-        "d40edc06-5da8-4057-89e9-c77cf138ddb2"
+        "d40edc06-5da8-4057-89e9-c77cf138ddb2",
+        "10a0dc3b-ea65-4615-83f5-58fdf77ba3bd",
+        "3dee3b01-13b3-4faa-aef0-6cd3794fad23"
     ],
     "tutorial": ""
 }
