@@ -1,12 +1,15 @@
 /// @description Initialize
 
-// With the way singletons are initialized, we dont even have
-// to place this PlayerStatsMaager object in any rooms, and it will
-// save our data between rooms when changing. We dont even have to check
-// to see if it exists!! Because it always will :)
-
-// If you want to save data between rooms you can either make the player persistant or use a PlayerStatsManager
-// system as shown in the Example Project
-maxRunSpeed    = 5;
+maxRunSpeed = PlayerStatsManager._maxRunSpeed;
+hp = PlayerStatsManager._health;
+hspd = 0;
+vspd = 0;
+dash_mul = 10;
+canDash = false;
+dash_timeout = scr_GetSeconds(1);
+alarm[0] = dash_timeout;
 
 sprite_index = sPlayerRight;
+curDialog = noone;
+
+state = scr_move_state;

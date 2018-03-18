@@ -13,3 +13,4 @@ upKey    = ord("W");
 downKey  = ord("S");
 
 interactKey = ord("E");
+dashKey = vk_space;

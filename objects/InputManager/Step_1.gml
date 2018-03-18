@@ -7,3 +7,4 @@ horizontalInput = keyboard_check(rightKey) - keyboard_check(leftKey);
 verticalInput   = keyboard_check(downKey)  - keyboard_check(upKey);
 
 interactInput = keyboard_check_pressed(interactKey);
+dashInput = keyboard_check_pressed(dashKey);

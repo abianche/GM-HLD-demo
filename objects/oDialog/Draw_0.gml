@@ -15,23 +15,20 @@ if(time < text_length)
 }
 else if(alarm[0] == -1)
 {
-	alarm[0] = 5 * room_speed;
+	alarm[0] = scr_GetSeconds(5);
 }
 
-// Render textbox and text
-draw_set_alpha(alpha);
-if(alpha < 1)
-	alpha += spd/10; // fade in based on speed
-else
-	alpha = 1;
-	
+
 draw_set_font(font);
 draw_set_color(c_black);
-draw_rectangle(x, y, x + boxwidth, y + boxheight, false); // draw box
-draw_set_color(c_white);
-//draw_rectangle(x, y, x + boxwidth, y + boxheight, true); // draw outline
-scr_draw_rectangle_width(x, y, x + boxwidth, y + boxheight, 8);
 
+draw_set_alpha(0.5);
+draw_rectangle(x, y, x + boxwidth, y + boxheight, false); // draw box
+//draw_set_color(c_white);
+//draw_rectangle(x, y, x + boxwidth, y + boxheight, true); // draw outline
+//scr_draw_rectangle_width(x, y, x + boxwidth, y + boxheight, 8);
+
+draw_set_alpha(1);
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
@@ -44,5 +41,3 @@ draw_text_ext
 	font_size + (font_size/2),
 	max_length
 );
-
-draw_set_alpha(1);

@@ -1,24 +1,24 @@
 {
-    "id": "f0a5d59c-43d4-4aa9-b260-ba36b27e5275",
+    "id": "64643e16-c8c1-4ba5-8a3a-ffd185e4ce11",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oNPC_1",
+    "name": "PlayerStatsManager",
     "eventList": [
         {
-            "id": "0a801fcc-9382-4f8b-977f-6e0212c615cf",
+            "id": "a89c736b-5062-44a8-85bc-cc37fc638128",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "f0a5d59c-43d4-4aa9-b260-ba36b27e5275"
+            "eventtype": 0,
+            "m_owner": "64643e16-c8c1-4ba5-8a3a-ffd185e4ce11"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "2a1d8525-ae53-49c6-a467-380de47fc5cd",
-    "persistent": false,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "776d56a7-01ea-45e5-ab40-c6930fd7c595",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

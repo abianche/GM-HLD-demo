@@ -1,4 +1,4 @@
-/// @function scr_text("Text", speed, x, y);
+/// @function scr_Text("Text", speed, x, y);
 /// @description Shows a text box
 /// @param text The text.
 /// @param drawing_speed Drawing speed.

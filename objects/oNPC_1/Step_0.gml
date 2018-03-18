@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 // Trigger conversation
-if(distance_to_object(Player) < 25 && InputManager.interactInput)
+if(distance_to_object(Player) < 25 && InputManager.interactInput && !instance_exists(curDialog))
 {
-	var str = "This is a very long string\nAnd this is on second line!";
-	curr_txt = scr_Text(str, 1, x - 64, y - 64*2);
+	var str = "Welcome to the first MADS demo!\nGet ready for an epic battle!";
+	curDialog = scr_Text(str, 0.5, x - global.unit, y - global.unit * 2);
 }
