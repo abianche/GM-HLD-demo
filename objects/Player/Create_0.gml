@@ -12,3 +12,5 @@ sprite_index = sPlayerRight;
 curDialog = noone;
 
 state = scr_move_state;
+
+tilemap = layer_tilemap_get_id("Collisions");

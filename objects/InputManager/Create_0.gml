@@ -11,8 +11,8 @@ dashKey = vk_space;
 
 // Gamepad
 device_num = 0;
-deadzone = 0.5;
+deadzone  = 0.5;
 gm_horizontalAxis = gp_axislh;
-gm_verticalAxis = gp_axislv;
-gm_interactKey = gp_face4;
-gm_dashKey = gp_face1;
+gm_verticalAxis   = gp_axislv;
+gm_interactKey    = gp_face4;
+gm_dashKey        = gp_face1;
