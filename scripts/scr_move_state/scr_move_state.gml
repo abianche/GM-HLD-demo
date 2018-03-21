@@ -17,6 +17,6 @@ if(InputManager.attackInput)
 hspd = InputManager.horizontalInput * maxRunSpeed; // Input will be -1, 0, or 1. Multiply by speed :D
 vspd = InputManager.verticalInput	* maxRunSpeed;
 
-scr_process_collision();
+scr_process_collision(hspd, vspd, tilemapCollisions);
 
 sprite_index = sPlayer;

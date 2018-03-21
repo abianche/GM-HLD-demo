@@ -1,5 +1,5 @@
 /// @description Camera follow
-if(follow != noone)
+if(follow != noone && instance_exists(follow))
 {
 	xTo = follow.x;
 	yTo = follow.y;

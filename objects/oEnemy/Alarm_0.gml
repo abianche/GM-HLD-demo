@@ -1,6 +1,6 @@
 /// @description Move towards player
 
-if(instance_exists(Player))
+if(instance_exists(Player) && !knocked)
 {
 	var toX = GridSnap(Player.x, global.unit);
 	var toY = GridSnap(Player.y, global.unit);
@@ -11,4 +11,13 @@ if(instance_exists(Player))
 	}
 }
 
-alarm[0] = 1;
+if(knocked)
+{
+	path_start(path, 4, path_action_stop, false);
+	knocked = false;
+	alarm[0] = 10;
+}
+else
+{
+	alarm[0] = 2;
+}

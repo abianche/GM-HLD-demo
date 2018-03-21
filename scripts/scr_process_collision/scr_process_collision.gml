@@ -1,6 +1,12 @@
 /// @function scr_process_collision
+/// @param hspd
+/// @param vspd
+/// @param tilemap
 /// @description Pixel perfect collision.
 
+var hspd = argument0;
+var vspd = argument1;
+var tilemap = argument2;
 var bbox_side;
 
 // Horizontal collision
