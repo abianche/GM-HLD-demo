@@ -7,8 +7,9 @@ vspd = 0;
 dash_mul = 4;
 canDash = true;
 dash_timeout = room_speed/4;
+attack_timeout = room_speed/4;
 
-sprite_index = sPlayerRight;
+sprite_index = sPlayer;
 curDialog = noone;
 
 state = scr_move_state;
