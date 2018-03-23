@@ -20,12 +20,32 @@ if(InputManager.attackInput)
 
 scr_process_collision(hspd, vspd, tilemap);
 
+if(InputManager.horizontalInput != 0 || InputManager.verticalInput != 0)
+{
+	dir = point_direction(0, 0, InputManager.horizontalInput, InputManager.verticalInput);
+	face = round(dir / 90);
+    if(face == 4) face = Face.RIGHT;
+}
+
 // Set sprite
-if(hspd > 0)
-	sprite_index = spr_player_right;
-if(hspd < 0)
-	sprite_index = spr_player_left;
-if(vspd < 0)
-	sprite_index = spr_player_up;
-if(vspd > 0)
-	sprite_index = spr_player_down;
+switch (face) {
+	case Face.RIGHT:
+		sprite_index = spr_player_right;
+		break;
+
+	case Face.UP:
+		sprite_index = spr_player_up;
+		break;
+
+	case Face.LEFT:
+		sprite_index = spr_player_left;
+		break;
+
+	case Face.DOWN:
+		sprite_index = spr_player_down;
+		break;
+	
+	default:
+		// TODO
+		break;
+}
