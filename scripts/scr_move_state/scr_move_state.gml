@@ -1,13 +1,9 @@
 /// @function scr_move_state()
 /// @description Moves and processes pixel perfect collisions
 
-// get input
-hspd = InputManager.horizontalInput * maxRunSpeed; // Input will be -1, 0, or 1. Multiply by speed :D
-vspd = InputManager.verticalInput	* maxRunSpeed;
-
 if(InputManager.dashInput && canDash)
 {
-	state = scr_dash_state;
+	state_change("dash");
 	alarm[0] = dash_timeout;
 }
 
@@ -15,9 +11,12 @@ if(InputManager.attackInput)
 {
 	last_sprite_index = sprite_index;
 	image_index = 0;
-	state = scr_attack_state;
+	state_change("attack");
 }
 
+// get input
+hspd = InputManager.horizontalInput * maxRunSpeed; // Input will be -1, 0, or 1. Multiply by speed :D
+vspd = InputManager.verticalInput	* maxRunSpeed;
 scr_process_collision(hspd, vspd, tilemap);
 
 if(InputManager.horizontalInput != 0 || InputManager.verticalInput != 0)

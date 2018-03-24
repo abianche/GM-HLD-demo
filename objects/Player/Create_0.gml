@@ -14,7 +14,11 @@ attacked = false;
 last_sprite_index = noone;
 curDialog = noone;
 
-state = scr_move_state;
+sm = state_machine_create();
+state_add(sm, "move", scr_move_state);
+state_add(sm, "dash", scr_dash_state);
+state_add(sm, "attack", scr_attack_state);
+state_set(sm, "move");
 
 tilemap = layer_tilemap_get_id("Collisions");
 

@@ -1,6 +1,8 @@
 /// @function scr_attack_state()
 /// @description Attacks
 
+
+
 var h = 0;
 var v = 0;
 
@@ -24,3 +26,4 @@ if(image_index >= (image_number - 1) && !attacked)
 }
 
 sprite_index = spr_player_attack;
+state_change("move");
