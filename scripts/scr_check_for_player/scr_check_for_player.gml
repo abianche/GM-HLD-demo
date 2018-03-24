@@ -2,7 +2,9 @@
 if(instance_exists(Player))
 {
 	var distance = point_distance(x, y, Player.x, Player.y);
-	if(distance <= sight)
+	var dir = point_direction(x, y, Player.x, Player.y);
+	var canSee = IsInLineOfSight(x, y, Player.x, Player.y, sight, dir, 90, oWall);
+	if(canSee)
 	{
 		state = scr_enemy_chase_state;
 		targetx = Player.x;

@@ -2,7 +2,7 @@
 {
     "name": "StartMenu",
     "id": "cb4805a3-f9e0-4246-806a-9f25abe4c903",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
