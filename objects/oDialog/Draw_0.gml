@@ -15,7 +15,7 @@ if(time < text_length)
 }
 else if(alarm[0] == -1)
 {
-	alarm[0] = scr_GetSeconds(5);
+	alarm[0] = scr_room_seconds(5);
 }
 
 

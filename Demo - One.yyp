@@ -490,7 +490,7 @@
             "Key": "638571bf-0486-4af1-a2b4-9cc2034d26d2",
             "Value": {
                 "id": "d0befc2b-7a32-4818-8cf3-a3bcf54536e8",
-                "resourcePath": "scripts\\scr_GetSeconds\\scr_GetSeconds.yy",
+                "resourcePath": "scripts\\scr_room_seconds\\scr_room_seconds.yy",
                 "resourceType": "GMScript"
             }
         },

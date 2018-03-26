@@ -1,17 +1,23 @@
 /// @function scr_move_state()
 /// @description Moves and processes pixel perfect collisions
 
-if(InputManager.dashInput && canDash)
+if(InputManager.dashInput && skill_dash_avail)
 {
 	state_change("dash");
-	alarm[0] = dash_timeout;
+	skill_dash_duration = scr_room_seconds(0.25);
+	skill_dash_avail = false;
+	alarm[0] = skill_dash_cooldown;
 }
 
-if(InputManager.attackInput)
+if(InputManager.attackInput && skill_atk_avail)
 {
 	last_sprite_index = sprite_index;
 	image_index = 0;
+	skill_atk_avail = false;
+	skill_atk_attacked = false;
 	state_change("attack");
+	skill_atk_duration = scr_room_seconds(0.15);
+	alarm[1] = skill_atk_cooldown;
 }
 
 // get input

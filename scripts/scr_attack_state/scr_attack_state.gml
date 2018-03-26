@@ -1,8 +1,6 @@
 /// @function scr_attack_state()
 /// @description Attacks
 
-
-
 var h = 0;
 var v = 0;
 
@@ -17,13 +15,18 @@ switch(sprite_index)
 	case spr_player_down:  v = dist;  break;		
 }
 
-if(image_index >= (image_number - 1) && !attacked)
+if(!skill_atk_attacked)
 {
-	var damageObj = instance_create_layer(x+h, y+v, "Instances", oDamage);
+	var damageObj = instance_create_layer(x + h, y + v, "Instances", oDamage);
 	damageObj.depth = id.depth - 1;
 	damageObj.creator = id;
-	attacked = true;
+	skill_atk_attacked = true;
 }
 
 sprite_index = spr_player_attack;
-state_change("move");
+
+skill_atk_duration--;
+if(skill_atk_duration <= 0)
+{
+	state_change("move");
+}

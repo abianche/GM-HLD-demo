@@ -1,3 +1,2 @@
 /// @description Dash reset
-state_change("move");
-canDash = true;
+skill_dash_avail = true;

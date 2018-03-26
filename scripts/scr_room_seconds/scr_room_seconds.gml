@@ -1,4 +1,4 @@
-/// @function scr_GetSeconds(s);
+/// @function scr_room_seconds;
 /// @description Returns the seconds based on room speed.
 /// @param seconds
 

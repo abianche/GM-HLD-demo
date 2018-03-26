@@ -1,2 +1,2 @@
-/// @description Dash cooldown
-canDash = true;
+/// @description Attack reset
+skill_atk_avail = true;
