@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "211977b0-db70-4b1a-b4ca-8b88ccb2843e",
+            "Value": {
+                "id": "0dcc1b77-d57e-4899-878f-f4ead2caa6eb",
+                "resourcePath": "rooms\\Fight1\\Fight1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "23a9b7a7-100b-4be5-bffe-1530efbd570e",
             "Value": {
                 "id": "152af6e3-dc81-40d6-9dc6-269f2b022599",
@@ -202,7 +210,7 @@
             "Key": "249c3200-a036-473d-bcb6-9a549b0b7d4d",
             "Value": {
                 "id": "b5b9e123-1157-4085-aad8-2c464ff0da50",
-                "resourcePath": "rooms\\Level1\\Level1.yy",
+                "resourcePath": "rooms\\Briefing\\Briefing.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -783,6 +791,14 @@
             }
         },
         {
+            "Key": "a955c96d-3a27-4ead-95db-4a248febb470",
+            "Value": {
+                "id": "acad4112-5e9e-4dc8-a5b5-41605ab148ce",
+                "resourcePath": "objects\\oFade\\oFade.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9d26936-59a1-471b-837f-ff90882a0bb4",
             "Value": {
                 "id": "cdceae12-9637-4bf2-bb73-414da348821c",
@@ -931,6 +947,14 @@
             "Value": {
                 "id": "a24adbd4-4324-44bc-a519-96198fd0ebd1",
                 "resourcePath": "sprites\\sNewGame\\sNewGame.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cee4649a-d43a-4fee-a40d-16f24e73a669",
+            "Value": {
+                "id": "17166879-ec0b-4fae-ad19-19d2e5702c46",
+                "resourcePath": "sprites\\sDoor\\sDoor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1123,6 +1147,14 @@
             "Value": {
                 "id": "798ec68f-4893-4eed-ac04-f11d07ec4d58",
                 "resourcePath": "objects\\oCharacter\\oCharacter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd40c5f6-6cca-4b85-9b5f-2cb26ce487c2",
+            "Value": {
+                "id": "86f326d7-fa2a-409c-94b3-cac3b1d31d17",
+                "resourcePath": "objects\\oDoor\\oDoor.yy",
                 "resourceType": "GMObject"
             }
         },
