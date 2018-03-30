@@ -7,7 +7,11 @@ upKey    = ord("W");
 downKey  = ord("S");
 
 interactKey = ord("I");
+interactKeyDuration = scr_room_seconds(2);
+interactKeyCounter = 0;
+
 attackKey	= ord("K");
+
 dashKey     = ord("L");
 
 // Gamepad

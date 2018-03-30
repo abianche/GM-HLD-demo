@@ -3,7 +3,28 @@
 horizontalInput = keyboard_check(rightKey) - keyboard_check(leftKey);
 verticalInput   = keyboard_check(downKey)  - keyboard_check(upKey);
 
-interactInput = keyboard_check_pressed(interactKey);
+if(keyboard_check_pressed(interactKey))
+{
+	interactKeyCounter = 0;
+	show_debug_message("PRESSED");
+}
+if(keyboard_check(interactKey))
+{
+	interactKeyCounter++;
+	show_debug_message("CHECKED");
+	show_debug_message(string(interactKeyCounter));
+}
+if((interactKeyCounter / room_speed) >= interactKeyDuration)
+{
+	interactInput = true;
+	show_debug_message("INTERACTED");
+}
+if(keyboard_check_released(interactKey))
+{
+	interactInput = false;
+	show_debug_message("RELEASED");
+}
+
 attackInput = keyboard_check_pressed(attackKey);
 dashInput     = keyboard_check_pressed(dashKey);
 
