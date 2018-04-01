@@ -10,5 +10,5 @@ global.grid = mp_grid_create(0, 0, hcells, vcells, cell_width, cell_height);
 
 // Add the walls
 mp_grid_add_instances(global.grid, oWall, false);
-mp_grid_add_instances(global.grid, NPC, false);
+mp_grid_add_instances(global.grid, oNPC_Briefer, false);
 // mp_grid_add_cell()

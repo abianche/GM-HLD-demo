@@ -1,7 +1,5 @@
 /// @description Initialize
 
-event_inherited();
-
 /** PLAYER STATS */
 maxRunSpeed = PlayerStatsManager._maxRunSpeed;
 hp = PlayerStatsManager._health;

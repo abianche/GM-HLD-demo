@@ -247,14 +247,6 @@
             }
         },
         {
-            "Key": "2a1d8525-ae53-49c6-a467-380de47fc5cd",
-            "Value": {
-                "id": "d2fe84c0-790a-4c36-a5fb-6f80c231d1ad",
-                "resourcePath": "objects\\NPC\\NPC.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2b7c95ae-8eae-4915-ac46-0a5ad9e29fdb",
             "Value": {
                 "id": "44ad7fce-227f-49a3-babc-20230e6d58b0",
@@ -570,7 +562,7 @@
             "Key": "6d2a6f5c-07d2-487a-80b3-9459141d1339",
             "Value": {
                 "id": "2faa64af-5e02-4091-b179-be5ebd03a34e",
-                "resourcePath": "objects\\oEnemy\\oEnemy.yy",
+                "resourcePath": "objects\\oEnemyChaser\\oEnemyChaser.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -735,6 +727,14 @@
             }
         },
         {
+            "Key": "96068548-57e2-4a1d-8bff-4d0f1af05b41",
+            "Value": {
+                "id": "c42c26bc-a572-4d62-9be7-89b5d8c212aa",
+                "resourcePath": "objects\\Enemy\\Enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "975c94e8-5469-4e0a-8547-06767ba17f35",
             "Value": {
                 "id": "652e163e-efbd-4358-8731-f93c5f90bb3d",
@@ -876,6 +876,14 @@
                 "id": "b320004a-47cd-40cc-a7a6-66690eb68d03",
                 "resourcePath": "scripts\\state_on_enter\\state_on_enter.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be3caca1-0d89-4243-9d85-6919d439c3ca",
+            "Value": {
+                "id": "88dea25d-c837-4170-879c-9153eb138b6e",
+                "resourcePath": "objects\\oEnemySamurai\\oEnemySamurai.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1122,7 +1130,7 @@
             "Key": "f0a5d59c-43d4-4aa9-b260-ba36b27e5275",
             "Value": {
                 "id": "841b3af9-0fd4-47c2-ab54-5a3c2348cd5f",
-                "resourcePath": "objects\\oNPC_1\\oNPC_1.yy",
+                "resourcePath": "objects\\oNPC_Briefer\\oNPC_Briefer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1188,14 +1196,6 @@
                 "id": "f27a99d7-0b78-44d8-b321-ece0e8af34e4",
                 "resourcePath": "scripts\\scr_enemy_choose_next_state\\scr_enemy_choose_next_state.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "fc95998e-1eef-4d86-9bd8-cc496ff29b1a",
-            "Value": {
-                "id": "798ec68f-4893-4eed-ac04-f11d07ec4d58",
-                "resourcePath": "objects\\oCharacter\\oCharacter.yy",
-                "resourceType": "GMObject"
             }
         },
         {

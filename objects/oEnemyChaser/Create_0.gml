@@ -1,5 +1,5 @@
 /// @description Path
-event_inherited();
+
 hp = 30;
 path = path_add();
 maxRunSpeed = 4;

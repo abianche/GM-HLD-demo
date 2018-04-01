@@ -2,7 +2,7 @@
     "id": "6d2a6f5c-07d2-487a-80b3-9459141d1339",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oEnemy",
+    "name": "oEnemyChaser",
     "eventList": [
         {
             "id": "9b98b9e6-fe74-4de9-857a-7f67b275fdee",
@@ -47,7 +47,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "fc95998e-1eef-4d86-9bd8-cc496ff29b1a",
+    "parentObjectId": "96068548-57e2-4a1d-8bff-4d0f1af05b41",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

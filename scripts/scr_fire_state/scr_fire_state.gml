@@ -24,7 +24,6 @@ if(!skill_fire_attacked)
 		direction =  point_direction(x, y, mouse_x, mouse_y);
 		direction += random_range(-4,4);
 		image_angle = direction;
-		damage = 10;
 		creator = other.id;
 	}
 
