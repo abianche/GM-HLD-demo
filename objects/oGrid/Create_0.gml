@@ -1,7 +1,7 @@
 /// @description Create the grid
 
-var cell_width  = global.unit;
-var cell_height = global.unit;
+var cell_width  = GlobalConstants.unit;
+var cell_height = GlobalConstants.unit;
 
 var hcells = room_width div cell_width;
 var vcells = room_height div cell_height;

@@ -1,8 +1,8 @@
 {
-    "id": "5052626e-1d94-472a-9cb3-aeccbf995f8a",
+    "id": "bebbe227-4e4a-4459-9bbe-e7becdfe2813",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWall",
+    "name": "oChest",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "538d1dd3-35df-4e46-8854-f73b666a46ab",
+    "spriteId": "00cda1a5-a7a2-48f3-8e3c-cf77811a00ac",
     "visible": true
 }

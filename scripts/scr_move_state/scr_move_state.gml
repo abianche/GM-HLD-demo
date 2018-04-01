@@ -20,9 +20,26 @@ if(InputManager.attackInput && skill_atk_avail)
 	alarm[1] = skill_atk_cooldown;
 }
 
+if(InputManager.fireInput && skill_fire_avail && ammo > 0)
+{
+	skill_fire_avail = false;
+	skill_fire_attacked = false;
+	state_change("fire");
+	skill_fire_duration = scr_room_seconds(0.10);
+	alarm[2] = skill_fire_cooldown;
+}
+
 // get input
 hspd = InputManager.horizontalInput * maxRunSpeed; // Input will be -1, 0, or 1. Multiply by speed :D
 vspd = InputManager.verticalInput	* maxRunSpeed;
+
+// if interacting do not move TODO: not correct
+if(InputManager.isInteracting)
+{
+	hspd = 0;
+	vspd = 0;
+}
+
 scr_process_collision(hspd, vspd, tilemap);
 
 if(InputManager.horizontalInput != 0 || InputManager.verticalInput != 0)

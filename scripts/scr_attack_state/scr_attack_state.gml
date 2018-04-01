@@ -4,7 +4,7 @@
 var h = 0;
 var v = 0;
 
-var dist = global.unit/2;
+var dist = GlobalConstants.unit/2;
 
 // TODO:
 switch(sprite_index)

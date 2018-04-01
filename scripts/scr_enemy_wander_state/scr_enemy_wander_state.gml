@@ -2,8 +2,8 @@
 scr_check_for_player();
 
 // FIXME: code duplication -> scr_enemy_chase_state
-var toX = GridSnap(targetx, global.unit);
-var toY = GridSnap(targety, global.unit);
+var toX = GridSnap(targetx, GlobalConstants.unit);
+var toY = GridSnap(targety, GlobalConstants.unit);
 
 if(mp_grid_path(global.grid, path, x, y, toX, toY, true))
 {

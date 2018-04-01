@@ -8,7 +8,7 @@ var hspd    = argument0;
 var vspd    = argument1;
 var tilemap = argument2;
 
-var unit = global.unit; // = 64
+var unit = GlobalConstants.unit; // = 64
 
 var bbox_side;
 

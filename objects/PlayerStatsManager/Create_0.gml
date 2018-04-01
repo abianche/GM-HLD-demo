@@ -2,3 +2,4 @@
 
 _health = 100;
 _maxRunSpeed = 5;
+_ammo = 7;
