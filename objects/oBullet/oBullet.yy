@@ -5,16 +5,6 @@
     "name": "oBullet",
     "eventList": [
         {
-            "id": "e1c409db-1073-4072-a301-baf4e0236f2d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 40,
-            "eventtype": 7,
-            "m_owner": "f46b1982-9ef5-4ea1-a852-b73de4514ae3"
-        },
-        {
             "id": "0cdafca1-2d39-4f04-bfac-d59ad2bb22a5",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "f46b1982-9ef5-4ea1-a852-b73de4514ae3"
+        },
+        {
+            "id": "0f5d2774-592b-4209-b9ae-a910ee77d499",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 7,
             "m_owner": "f46b1982-9ef5-4ea1-a852-b73de4514ae3"
         }
     ],

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Conversation
 
 // Trigger conversation
 if(distance_to_object(Player) < 25 && InputManager.interactInput && !instance_exists(curDialog))

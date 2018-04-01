@@ -3,7 +3,7 @@
 if(alarm[0] <= 0)
 {
 	path_end();
-	state = choose(scr_enemy_wander_state, scr_enemy_idle_state);
+	state_change(choose("wander", "check"));
 	alarm[0] = room_speed * irandom_range(2, 4);
 	targetx = irandom_range(x - 128, x + 128);
 	targety = irandom_range(y - 128, y + 128);

@@ -114,7 +114,7 @@
             "Key": "0bf1420c-9518-44c6-929e-28cc4efe1fea",
             "Value": {
                 "id": "b844f31d-2c4e-4316-9fa0-ad68aa3104cd",
-                "resourcePath": "sprites\\sEnemy\\sEnemy.yy",
+                "resourcePath": "sprites\\sEnemyChase\\sEnemyChase.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -132,6 +132,14 @@
                 "id": "6b588577-d77d-436f-a344-f0766f34a976",
                 "resourcePath": "views\\13c8fa68-63c9-4c35-85f0-5381ecc03e7b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "14ffab55-a654-4a81-a60d-eeb218ad4ef1",
+            "Value": {
+                "id": "7d657d67-4fcf-4a6d-a9a2-4f9e388d4902",
+                "resourcePath": "scripts\\scr_enemy_wander_state_samurai\\scr_enemy_wander_state_samurai.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -228,6 +236,22 @@
                 "id": "3517e840-c0b3-4336-8112-366f0c507a3a",
                 "resourcePath": "views\\2763894b-dc5a-43e0-8674-5b5fc2850fde.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "27a748f2-daee-40b4-b68a-f7b88f647f6a",
+            "Value": {
+                "id": "b651f69f-abe8-4f0c-8538-3851f0c8dacf",
+                "resourcePath": "scripts\\scr_enemy_chase_state_samurai\\scr_enemy_chase_state_samurai.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "28b328ae-458d-4887-bf3a-286134f9fde6",
+            "Value": {
+                "id": "d82ff1dc-ccc3-400c-bde6-6833e272043e",
+                "resourcePath": "objects\\oEnemySamurai\\oEnemySamurai.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -503,6 +527,14 @@
             }
         },
         {
+            "Key": "60d8ca67-bb37-4fe7-9ea9-7aa2dbe64cd1",
+            "Value": {
+                "id": "2def5564-6bc6-4f79-b941-be06bff85b41",
+                "resourcePath": "scripts\\scr_enemy_dash_state\\scr_enemy_dash_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "62dbc3aa-64ef-45c2-978e-49037e54a70a",
             "Value": {
                 "id": "22aa925e-5324-4310-8150-c281ed27e40e",
@@ -564,14 +596,6 @@
                 "id": "2faa64af-5e02-4091-b179-be5ebd03a34e",
                 "resourcePath": "objects\\oEnemyChaser\\oEnemyChaser.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "7152c395-efe1-41ef-853d-557c8d2b1e00",
-            "Value": {
-                "id": "17f8c540-63df-4115-8f6c-8d38cacdf6de",
-                "resourcePath": "scripts\\scr_enemy_idle_state\\scr_enemy_idle_state.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -879,14 +903,6 @@
             }
         },
         {
-            "Key": "be3caca1-0d89-4243-9d85-6919d439c3ca",
-            "Value": {
-                "id": "88dea25d-c837-4170-879c-9153eb138b6e",
-                "resourcePath": "objects\\oEnemySamurai\\oEnemySamurai.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bebbe227-4e4a-4459-9bbe-e7becdfe2813",
             "Value": {
                 "id": "2635debf-8559-4205-8f44-7a28f57b4af5",
@@ -991,6 +1007,14 @@
             }
         },
         {
+            "Key": "ccfd0b0f-cdbb-43b4-b093-6c4656464e32",
+            "Value": {
+                "id": "b1937f88-d1fd-4c8d-a6ee-bef5e65eefd3",
+                "resourcePath": "views\\ccfd0b0f-cdbb-43b4-b093-6c4656464e32.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ce5619f9-e5a6-422e-852b-cff7fb7ea4ea",
             "Value": {
                 "id": "a24adbd4-4324-44bc-a519-96198fd0ebd1",
@@ -1027,6 +1051,14 @@
             "Value": {
                 "id": "c4839a71-ded2-47c7-ab97-ae27fb3ef4fd",
                 "resourcePath": "scripts\\scr_frozen_state\\scr_frozen_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d4c35a6b-4e9c-4dbe-a86f-0cdc6867122b",
+            "Value": {
+                "id": "7a738d5e-e585-49f7-aeae-23f77e904a07",
+                "resourcePath": "scripts\\scr_check_for_player_samurai\\scr_check_for_player_samurai.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1124,6 +1156,14 @@
                 "id": "137b7972-5861-450a-b125-8e09a302e7c4",
                 "resourcePath": "objects\\ButtonExitGame\\ButtonExitGame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "efe27089-2fb6-42bd-b9e7-37d3275cee3d",
+            "Value": {
+                "id": "f99fddc9-21da-4a6f-8d2b-624902395401",
+                "resourcePath": "sprites\\sEnemySamurai\\sEnemySamurai.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1271,11 +1311,14 @@
         "09a4f3e8-1b69-4ef9-b047-5f8dcc486a44",
         "d40edc06-5da8-4057-89e9-c77cf138ddb2",
         "449396ec-8049-4310-af33-dc6411748e6f",
-        "7152c395-efe1-41ef-853d-557c8d2b1e00",
         "9e27510f-75bb-4192-9e12-bea33b350056",
         "48a1bd2b-6df5-4908-8c5a-745c7e472fe9",
         "f9283834-0318-4aa6-b419-a705c4efc5b2",
         "7b0ff30f-3202-4153-859b-4376b507a687",
+        "d4c35a6b-4e9c-4dbe-a86f-0cdc6867122b",
+        "60d8ca67-bb37-4fe7-9ea9-7aa2dbe64cd1",
+        "14ffab55-a654-4a81-a60d-eeb218ad4ef1",
+        "27a748f2-daee-40b4-b68a-f7b88f647f6a",
         "7c737de4-0e0a-4634-a964-f70589c06eb2",
         "f1dadc75-7b0f-4c4c-80b4-eb570d8dd8ef",
         "30a35d19-5da6-4d6b-a036-b777fb6d3832",
