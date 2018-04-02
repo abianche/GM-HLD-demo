@@ -21,7 +21,7 @@ if(!skill_fire_attacked)
 	with(instance_create_layer(x + h, y + v, "Instances", oBullet))
 	{
 		speed = 15;
-		direction =  point_direction(x, y, mouse_x, mouse_y);
+		direction =  point_direction(x, y, InputManager.pointer_xInput, InputManager.pointer_yInput);
 		direction += random_range(-4,4);
 		image_angle = direction;
 		creator = other.id;
