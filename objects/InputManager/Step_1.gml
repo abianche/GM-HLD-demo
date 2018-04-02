@@ -35,6 +35,7 @@ attackInput = keyboard_check_pressed(attackKey);
 dashInput   = keyboard_check_pressed(dashKey);
 fireInput   = keyboard_check_pressed(fireKey);
 
+// TODO: not correct
 pointer_xInput = mouse_x;
 pointer_yInput = mouse_y;
 
@@ -50,16 +51,15 @@ if(gamepad_is_connected(device_num))
 	dashInput     = gamepad_button_check_released(device_num, gm_dashKey);
 	fireInput     = gamepad_button_check_released(device_num, gm_fireKey);
 	
-	var xaxis = gamepad_axis_value(0, gp_axisrh);
-	var yaxis = gamepad_axis_value(0, gp_axisrv);
+	// TODO: not correct
+	var xaxis = (gamepad_axis_value(device_num, gm_horizontalPointerAxis) >= deadzone) - 
+				(gamepad_axis_value(device_num, gm_horizontalPointerAxis) <= -deadzone);
+	var yaxis = (gamepad_axis_value(device_num, gm_verticalPointerAxis) >= -deadzone) - 
+				(gamepad_axis_value(device_num, gm_verticalPointerAxis) <= deadzone);
+					  
 	var spd_max = 16; // Maximum cursor speed for the gamepad.
 
-	offset_x += (spd_max * xaxis);
-	offset_y += (spd_max * yaxis);
-
-	pointer_xInput = (view_xview+view_wview/2) + offset_x;
-	pointer_yInput = (view_yview+view_hview/2) + offset_y;
-
-	pointer_xInput = clamp(x, view_xview, view_xview+view_wview);
-	pointer_yInput = clamp(y, view_yview, view_yview+view_hview);
+	var cursorx = window_mouse_get_x() + xaxis * spd_max;
+	var cursory = window_mouse_get_y() + yaxis * spd_max;
+	window_mouse_set( cursorx, cursory);
 }

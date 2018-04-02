@@ -1,7 +1,4 @@
 /// @description Damage
 
-if(!hit)
-{
-	other.hp -= 10;
-	hit = true;
-}
+other.hp -= 10;
+instance_destroy();

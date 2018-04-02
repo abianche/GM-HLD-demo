@@ -45,3 +45,5 @@ enum Face { RIGHT, UP, LEFT, DOWN }
 face = Face.RIGHT;
 
 canInteract = false;
+
+flash = 0;
