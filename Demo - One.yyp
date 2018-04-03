@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "215e54b4-8986-4272-b33e-f709a7d7aab7",
+            "Value": {
+                "id": "24504d55-9454-4c0d-ba43-fd4ad91f358d",
+                "resourcePath": "objects\\GameManager\\GameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "23a9b7a7-100b-4be5-bffe-1530efbd570e",
             "Value": {
                 "id": "152af6e3-dc81-40d6-9dc6-269f2b022599",
@@ -924,6 +932,14 @@
                 "id": "5c2daf7f-962a-4465-b94a-ad3194265e08",
                 "resourcePath": "scripts\\CollisionRectangleList\\CollisionRectangleList.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b514ec6f-2520-46ff-a61a-984ed90d54f4",
+            "Value": {
+                "id": "bd617844-7f73-4ab8-a901-2340b5c72e5a",
+                "resourcePath": "sprites\\sDead\\sDead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

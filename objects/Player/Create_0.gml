@@ -18,8 +18,8 @@ skill_dash_cooldown = scr_room_seconds(1.25);
 skill_dash_duration = scr_room_seconds(0.25);
 
 skill_atk_avail = true;
-skill_atk_cooldown = scr_room_seconds(0.85);
-skill_atk_duration = scr_room_seconds(0.15);
+skill_atk_cooldown = scr_room_seconds(0.25);
+skill_atk_duration = scr_room_seconds(0.10);
 skill_atk_attacked = false;
 
 skill_fire_avail = true;

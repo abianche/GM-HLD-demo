@@ -4,5 +4,7 @@ if(hp <= 0)
 {
 	instance_destroy();
 }
-
-state_execute(sm);
+else if(instance_exists(Player))
+{
+	state_execute(sm);
+}

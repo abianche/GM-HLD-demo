@@ -3,6 +3,6 @@
 if(hp <= 0)
 {
 	instance_destroy();
+	game_restart();
 }
-
-state_execute(sm);
+else state_execute(sm);
