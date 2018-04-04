@@ -21,6 +21,7 @@ skill_atk_avail = true;
 skill_atk_cooldown = scr_room_seconds(0.25);
 skill_atk_duration = scr_room_seconds(0.10);
 skill_atk_attacked = false;
+skill_atk_combo = 1;
 
 skill_fire_avail = true;
 skill_fire_cooldown = scr_room_seconds(0.85);

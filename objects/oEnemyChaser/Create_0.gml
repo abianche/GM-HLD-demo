@@ -2,7 +2,7 @@
 
 event_inherited();
 
-hp = 30;
+hp = 10;
 path = path_add();
 maxRunSpeed = 4;
 

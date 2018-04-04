@@ -1,4 +1,3 @@
 /// @description Damage and destroy
-other.hp -= 10;
-other.flash = 1;
-instance_destroy();
+
+if(!alarm[1]) alarm[1] = scr_room_seconds(1);
