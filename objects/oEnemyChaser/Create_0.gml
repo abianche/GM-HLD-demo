@@ -4,7 +4,7 @@ event_inherited();
 
 hp = 10;
 path = path_add();
-maxRunSpeed = 4;
+maxRunSpeed = 6;
 
 alarm[0] = room_speed * irandom_range(2, 5);
 targetx = 0;

@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "1c2630cb-7420-4aa9-b6c1-a1015bb3686a",
+            "Value": {
+                "id": "edfced1e-5848-4eeb-a990-3bb0f9f06018",
+                "resourcePath": "objects\\oInteract\\oInteract.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e85abb9-25cb-4715-8cd3-9bb41e301108",
             "Value": {
                 "id": "1280285f-4e32-488c-a138-0b1cc1003cf3",
@@ -303,19 +311,19 @@
             }
         },
         {
+            "Key": "30945e9b-cb66-462f-b4c7-926e80f492ec",
+            "Value": {
+                "id": "4b93ecd0-2631-4af6-b809-616326706e98",
+                "resourcePath": "views\\30945e9b-cb66-462f-b4c7-926e80f492ec.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "30a35d19-5da6-4d6b-a036-b777fb6d3832",
             "Value": {
                 "id": "61cfc777-ce05-4f15-bd26-598de4ffd6f1",
                 "resourcePath": "scripts\\state_remove\\state_remove.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "30e4be4f-1e6e-4f4d-bd9c-58460f42ed2a",
-            "Value": {
-                "id": "4c717c63-002c-4405-b62a-e578081af40e",
-                "resourcePath": "objects\\oSparring\\oSparring.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -812,6 +820,14 @@
                 "id": "652e163e-efbd-4358-8731-f93c5f90bb3d",
                 "resourcePath": "scripts\\scr_draw_rectangle_width\\scr_draw_rectangle_width.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "98a89028-c38c-49ad-b466-71484f389a74",
+            "Value": {
+                "id": "9cbb9df4-02b1-4506-88c2-0f9f4e21deee",
+                "resourcePath": "sprites\\sInteract\\sInteract.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

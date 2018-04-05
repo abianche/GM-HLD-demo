@@ -11,7 +11,6 @@ if(!isInteracting)
 if(keyboard_check_pressed(interactKey))
 {
 	interactKeyCounter = 0;
-	show_debug_message("[XXX] PRESSED");
 	isInteracting = true;
 }
 if(keyboard_check(interactKey) && isInteracting)
@@ -19,14 +18,12 @@ if(keyboard_check(interactKey) && isInteracting)
 	if(interactKeyCounter++ >= interactKeyDuration)
 	{	
 		interactInput = true;
-		show_debug_message("[XXX] INTERACTED");
 		isInteracting = false;
 	}
 }
 if(keyboard_check_released(interactKey))
 {
 	interactKeyCounter = 0;
-	show_debug_message("[XXX] RELEASED");
 	// interactInput = false;
 	isInteracting = false;
 }
